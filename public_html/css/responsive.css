@@ -1,0 +1,162 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Nov 28, 2022, 11:04:49 AM
+    Author     : milos
+*/
+
+/*
+> 0px XS - NO NAME
+
+>576px SM - small device
+
+>768px MD - medium device
+
+>992px EL - large device
+
+>1200px XL - extra large device
+
+*/
+
+@media(min-width:320px){
+    .navbar-collapse .register-button{
+        margin-top: 20px;
+    }
+    .navbar .navbar-nav{
+        margin-top: 15px;
+    }
+
+    .pricing-section .pricing-home:after{
+        margin-top: 40px;
+    }
+}
+
+
+@media(min-width:576px){
+
+}
+
+
+
+@media(min-width:768px){
+    .navbar-collapse .register-button{
+        margin-left: 28px;
+    }
+
+    .carousel-item .caption .link-button{
+        float: left;
+    }
+
+    .benefit-section .benefit-content{
+        padding-bottom: 88px;
+        padding-top: 66px;
+    }
+    .article-content .article-pricing .pricing-content-1{
+        margin-bottom: 105px;
+    }
+    .article-content .article-pricing .pricing-content{
+        margin-bottom: 57px;
+    }
+    .article-content:nth-child(2){
+        box-shadow: 0 7px 24px 0 rgba(83,83,83,0.1);
+    }
+    .article-content{
+        padding: 57px 0px;
+    }
+    .pricing-section{
+        margin-bottom: 116px;
+    }
+
+    .box-1 , .box-2{
+        width: 49%;
+    }
+
+}
+
+
+
+
+
+@media(min-width:992px){
+
+    .carousel-item .caption{
+        padding-top: 110px;
+    }
+    
+    .carousel-indicators{
+        bottom: 130px; 
+    }
+
+    .pricing-section .pricing-home{
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 59px;
+        width: 810px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .pricing-section .pricing-home:after{
+        width: 350px;
+        margin-top: 60px;
+    }
+
+    .article-content:nth-child(2) .article-pricing:hover{
+        transform: scale(1.1);
+    }
+    .article-pricing{
+        transition:  transform 0.2s ease-in-out;
+
+    }
+
+    .article-content .article-pricing a{
+        height: 60px;
+        width: 270px;
+        padding: 21px 48px;
+    }
+
+    .article-content:nth-of-type(2){
+        border-top: 3px solid #0A8AFF;
+    }
+    .article-content{
+        padding: 57px 0px;
+    }
+    .client-section{
+        margin-bottom: 120px;
+    }
+}
+
+
+
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        margin-left: 38px;
+    }
+
+    .article-content{
+        padding: 57px 0px;
+    }
+    article-content:nth-of-type(2) a{
+        padding: 21px 31px;
+        width: 236px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

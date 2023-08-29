@@ -1,0 +1,395 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Nov 28, 2022, 11:04:40 AM
+    Author     : milos
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+
+/*
+
+font-family: 'Rubik', sans-serif;
+
+*/
+
+
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-size: 16px;
+    line-height: 32px;
+    color: #5B6C94;
+}
+
+.bg-bitcoin{
+    background-color: #1FDB84;
+}
+
+
+
+
+/*HEADER*/
+
+.navbar .navbar-nav .nav-link{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.navbar-brand{
+    max-width: 30%;
+}
+
+.navbar-toggler span{
+    width: 30px;
+    height: 3px;
+    margin-bottom: 5px;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+.navbar-toggler span:last-of-type{
+    margin-bottom: 0;
+}
+
+.navbar-toggler{
+    border: 1px solid #FFFFFF;
+}
+
+.navbar-collapse .register-button{
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: #1FDB84;
+    box-shadow: 0 8px 34px 0 rgba(31,219,132,0.6);
+    border-style: none;
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link.active{
+    border-bottom: 2px solid #1FDB84;
+}
+
+.navbar-nav .nav-link.active{
+    color: #1FDB84;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #1FDB84;
+}
+
+
+/*header uradjen*/
+
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+
+}
+
+.carousel-indicators [data-bs-target]{
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-indent: -999px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #1FDB84;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.3;
+    transition: opacity 0.6s ease;
+}
+
+
+
+.carousel-indicators [data-bs-target].active{
+    opacity: 1;
+}
+
+.carousel-item .caption .lead-content{
+    color: #FFFFFF;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+.carousel-item .caption .main-lead{
+    color: #FFFFFF;
+    font-family: Rubik;
+
+}
+
+.carousel-item .caption .link-button{
+    height: 60px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: #1FDB84;
+    box-shadow: 0 -8px 34px 0 rgba(31,219,132,0.6);
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 18px 48px;
+
+}
+
+
+
+.benefit-section .benefit-content span{
+    height: 4px;
+    width: 60px;
+    background-color: #1FDB84;
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+
+
+
+.benefit-section{
+    max-width: 1257px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    border-radius: 10px;
+    position: relative;
+    margin-top: -100px;
+}
+
+
+
+
+
+
+.pricing-section .article-title h6{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.27px;
+    line-height: 32px;
+}
+
+
+.pricing-section .article-title span{
+    font-size: 72px;
+    letter-spacing: 0;
+    line-height: 64px;
+    color: #1FDB84;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+
+.article-content .article-pricing a{
+    height: 50px;
+    width: 150px;
+    border-radius: 6px;
+    background-color: #1FDB84;
+    box-shadow: 0 8px 34px 0 rgba(31,219,132,0.6);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.testimonials-section{
+    margin-bottom: 192px;
+}
+
+.bg-title{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 325px;
+    display: flex;
+    background-position: left;
+    align-items: center;
+}
+
+.box-1{
+    border-radius: 6px;
+    background-color: #1FDB84;
+    box-shadow: 12px 12px 40px 0 rgba(31,219,132,0.5);
+}
+
+.box-2{
+    border-radius: 6px;
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 12px 12px 40px 0 rgba(121,121,121,0.3);
+}
+
+.box-1 , .box-2{
+    padding: 80px 78px 63px 64px;
+}
+.bg-title h2{
+    padding: 0px 16px 0px 24px;
+}
+
+.row{
+    position: relative;
+    margin-top: -20px;
+}
+
+.testimonials-section li a{
+    color: #5B6C94;
+    text-decoration: none;
+}
+
+
+.images-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px !important; /* Margine za kompenzaciju gutters-a */
+}
+
+.gallery-item {
+    flex: 0 0 50%; /* 20% širine */
+    box-sizing: border-box; /* Uključivanje paddinga u širinu */
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s linear;
+}
+
+@media (min-width: 769px) {
+    .gallery-item {
+        flex: 0 0 20%; /* 20% širine */
+    }
+}
+
+.capture-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.gallery-item:hover .capture-image{
+    display: block;
+}
+
+.gallery-item img{
+    display: block;
+    width: 100%;
+}
+
+
+.client-section{
+    margin-top: 70px;
+}
+
+.client-section h6{
+    margin-bottom: 70px;
+}
+
+.client-section{
+    margin-bottom: 50px;
+}
+
+@keyframes slideLeft{
+    0%{
+
+        opacity : 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity : 1;
+        transform: translateX(0px);
+    }
+
+}
+
+.slide-left{
+    animation: slideLeft 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideRight{
+    0%{
+        opacity : 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity : 1;
+        transform: translateX(0px);
+    }
+
+}
+
+.slide-right{
+    animation: slideRight 1s linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+.footer-section li a{
+    color: #5B6C94;
+    text-decoration: none;
+}
+
+
+
+/* animation na works with any platform*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
